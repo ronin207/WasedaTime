@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		424957B927D37E5B001AE37D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424957B827D37E5B001AE37D /* HomeView.swift */; };
+		424957BC27D3817E001AE37D /* ColorSchemeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424957BB27D3817E001AE37D /* ColorSchemeToggle.swift */; };
 		429E18B027D35F6B001DD44A /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E18AF27D35F6B001DD44A /* TabItem.swift */; };
 		429E18B227D36027001DD44A /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E18B127D36027001DD44A /* TabView.swift */; };
 		42F2DB6D27D3354D0002B2EB /* WasedaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		424957B827D37E5B001AE37D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		424957BB27D3817E001AE37D /* ColorSchemeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeToggle.swift; sourceTree = "<group>"; };
 		429E18AF27D35F6B001DD44A /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		429E18B127D36027001DD44A /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		42F2DB6927D3354D0002B2EB /* WasedaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WasedaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 		424957BA27D3815C001AE37D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				424957BB27D3817E001AE37D /* ColorSchemeToggle.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424957BC27D3817E001AE37D /* ColorSchemeToggle.swift in Sources */,
 				42F2DB6F27D3354D0002B2EB /* ContentView.swift in Sources */,
 				424957B927D37E5B001AE37D /* HomeView.swift in Sources */,
 				42F2DB8D27D33F810002B2EB /* Colors.swift in Sources */,
