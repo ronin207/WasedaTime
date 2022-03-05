@@ -52,11 +52,11 @@ extension TabView {
                     }
                 } label: {
                     // MARK: Tab Item Label
-                    VStack(spacing: 0) {
-                        Image(systemName: item.icon)
-                            .symbolVariant(.fill)
+                    VStack(spacing: 5) {
+                        Image(item.icon)
+                            .resizable()
                             .font(.body.bold())
-                            .frame(width: 44, height: 29)
+                            .frame(width: 30, height: 30)
                         Text(item.text)
                             .font(.caption2)
                             .lineLimit(1)
