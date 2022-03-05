@@ -49,7 +49,7 @@ struct ColorSchemeBackgroundStyle<S: Shape>: View {
         ZStack {
             if isHighlighted {
                 shape
-                    .fill(Color.side)
+                    .fill(Color.side.opacity(0.7))
                     .overlay {
                         shape
                             .stroke(LinearGradient(.main, .side), lineWidth: 3)
@@ -58,7 +58,7 @@ struct ColorSchemeBackgroundStyle<S: Shape>: View {
                     .shadow(color: .side, radius: 5, x: 0, y: 0)
             } else {
                 shape
-                    .fill(LinearGradient(.main, .side))
+                    .fill(LinearGradient(.main.opacity(0.7), .side.opacity(0.7)))
                     .shadow(color: .main, radius: 5, x: 0, y: 0)
                     .shadow(color: .side, radius: 5, x: 0, y: 0)
             }
