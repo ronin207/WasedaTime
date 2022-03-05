@@ -54,13 +54,13 @@ struct ColorSchemeBackgroundStyle<S: Shape>: View {
                         shape
                             .stroke(LinearGradient(.main, .side), lineWidth: 3)
                     }
-                    .shadow(color: .main, radius: 5, x: -2, y: -2)
-                    .shadow(color: .side, radius: 5, x: 2, y: 2)
+                    .shadow(color: .main, radius: 5, x: 0, y: 0)
+                    .shadow(color: .side, radius: 5, x: 0, y: 0)
             } else {
                 shape
                     .fill(LinearGradient(.main, .side))
-                    .shadow(color: .main, radius: 5, x: -2, y: -2)
-                    .shadow(color: .side, radius: 5, x: 2, y: 2)
+                    .shadow(color: .main, radius: 5, x: 0, y: 0)
+                    .shadow(color: .side, radius: 5, x: 0, y: 0)
             }
         }
     }
