@@ -53,6 +53,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424957B727D37E0C001AE37D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		429E18AC27D35C25001DD44A /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +98,7 @@
 				42F2DB8A27D3380D0002B2EB /* Info.plist */,
 				42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */,
 				42F2DB6E27D3354D0002B2EB /* ContentView.swift */,
+				424957B727D37E0C001AE37D /* Navigation */,
 				429E18AE27D35C72001DD44A /* Views */,
 				429E18AC27D35C25001DD44A /* Models */,
 				42F2DB7D27D337440002B2EB /* Resources */,
