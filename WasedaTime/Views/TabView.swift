@@ -55,8 +55,9 @@ extension TabView {
                     VStack(spacing: 5) {
                         Image(item.icon)
                             .resizable()
+                            .renderingMode(.template)
                             .font(.body.bold())
-                            .frame(width: 30, height: 30)
+                            .frame(width: 25, height: 25)
                         Text(item.text)
                             .font(.caption2)
                             .lineLimit(1)
