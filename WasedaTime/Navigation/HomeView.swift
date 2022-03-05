@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct HomeView: View {
+    @Binding var isOn: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ZStack {
+                LinearGradient(.main, .side)
+                    .ignoresSafeArea()
+            }
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    ColorSchemeToggle(isOn: $isOn)
+                }
+            }
+        }
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(isOn: .constant(false))
     }
 }
