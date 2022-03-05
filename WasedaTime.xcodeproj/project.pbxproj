@@ -71,6 +71,7 @@
 				42F2DB8A27D3380D0002B2EB /* Info.plist */,
 				42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */,
 				42F2DB6E27D3354D0002B2EB /* ContentView.swift */,
+				42F2DB9C27D345730002B2EB /* Navigations */,
 				42F2DB7D27D337440002B2EB /* Resources */,
 				42F2DB7A27D3364B0002B2EB /* Extensions */,
 				42F2DB7027D3354E0002B2EB /* Assets.xcassets */,
@@ -107,6 +108,13 @@
 				42F2DB8327D3379C0002B2EB /* Lato-Thin.ttf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		42F2DB9C27D345730002B2EB /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
