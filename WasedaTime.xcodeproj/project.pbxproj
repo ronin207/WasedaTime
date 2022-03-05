@@ -11,6 +11,7 @@
 		42F2DB6F27D3354D0002B2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F2DB6E27D3354D0002B2EB /* ContentView.swift */; };
 		42F2DB7127D3354E0002B2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F2DB7027D3354E0002B2EB /* Assets.xcassets */; };
 		42F2DB7427D3354E0002B2EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F2DB7327D3354E0002B2EB /* Preview Assets.xcassets */; };
+		42F2DB7C27D336740002B2EB /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F2DB7B27D336740002B2EB /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		42F2DB6E27D3354D0002B2EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42F2DB7027D3354E0002B2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42F2DB7327D3354E0002B2EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42F2DB7B27D336740002B2EB /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		42F2DB7A27D3364B0002B2EB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				42F2DB7B27D336740002B2EB /* Fonts.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F2DB6F27D3354D0002B2EB /* ContentView.swift in Sources */,
+				42F2DB7C27D336740002B2EB /* Fonts.swift in Sources */,
 				42F2DB6D27D3354D0002B2EB /* WasedaTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
