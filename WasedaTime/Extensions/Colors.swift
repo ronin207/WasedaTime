@@ -7,14 +7,20 @@
 
 import SwiftUI
 
-struct Colors: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct Colors_Previews: PreviewProvider {
-    static var previews: some View {
-        Colors()
-    }
+extension Color {
+    static var accent = Color.accentColor
+    
+    static var light = Color("light")
+    static var natural = Color("natural")
+    static var dark = Color("dark")
+    static var darker = Color("darker")
+    
+    static var main = Color("main")
+    static var side = Color("side")
+    
+    static var text1 = Color("text1")
+    static var text2 = Color("text2")
+    static var text3 = Color("text3")
+    
+    static var constellation = Color("constellation")
 }
