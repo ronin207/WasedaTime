@@ -55,6 +55,7 @@
 			children = (
 				42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */,
 				42F2DB6E27D3354D0002B2EB /* ContentView.swift */,
+				42F2DB7D27D337440002B2EB /* Resources */,
 				42F2DB7A27D3364B0002B2EB /* Extensions */,
 				42F2DB7027D3354E0002B2EB /* Assets.xcassets */,
 				42F2DB7227D3354E0002B2EB /* Preview Content */,
@@ -76,6 +77,13 @@
 				42F2DB7B27D336740002B2EB /* Fonts.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42F2DB7D27D337440002B2EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
