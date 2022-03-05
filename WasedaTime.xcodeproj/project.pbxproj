@@ -49,6 +49,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		429E18A627D35934001DD44A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		429E18A727D3593C001DD44A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		42F2DB6027D3354D0002B2EB = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +85,8 @@
 				42F2DB8A27D3380D0002B2EB /* Info.plist */,
 				42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */,
 				42F2DB6E27D3354D0002B2EB /* ContentView.swift */,
+				429E18A627D35934001DD44A /* Models */,
+				429E18A727D3593C001DD44A /* Views */,
 				42F2DB7D27D337440002B2EB /* Resources */,
 				42F2DB7A27D3364B0002B2EB /* Extensions */,
 				42F2DB7027D3354E0002B2EB /* Assets.xcassets */,
