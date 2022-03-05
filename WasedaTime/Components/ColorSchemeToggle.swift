@@ -8,13 +8,60 @@
 import SwiftUI
 
 struct ColorSchemeToggle: View {
+    @Binding var isOn: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle(isOn: $isOn) {
+            Image(systemName: isOn ? "moon.fill" : "sun.max.fill")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 30, height: 30)
+                .foregroundColor(.constellation)
+        }
+        .toggleStyle(ColorSchemeToggleStyle())
     }
 }
 
 struct ColorSchemeToggle_Previews: PreviewProvider {
     static var previews: some View {
-        ColorSchemeToggle()
+        ColorSchemeToggle(isOn: .constant(false))
+    }
+}
+
+struct ColorSchemeToggleStyle: ToggleStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        Button {
+            configuration.isOn.toggle()
+        } label: {
+            configuration.label
+                .padding(10)
+                .contentShape(Circle())
+        }
+        .background(ColorSchemeBackgroundStyle(isHighlighted: configuration.isOn, shape: Circle()))
+    }
+}
+
+struct ColorSchemeBackgroundStyle<S: Shape>: View {
+    var isHighlighted: Bool
+    var shape: S
+    
+    var body: some View {
+        ZStack {
+            if isHighlighted {
+                shape
+                    .fill(Color.side)
+                    .overlay {
+                        shape
+                            .stroke(LinearGradient(.main, .side), lineWidth: 3)
+                    }
+                    .shadow(color: .main, radius: 5, x: -2, y: -2)
+                    .shadow(color: .side, radius: 5, x: 2, y: 2)
+            } else {
+                shape
+                    .fill(LinearGradient(.main, .side))
+                    .shadow(color: .main, radius: 5, x: -2, y: -2)
+                    .shadow(color: .side, radius: 5, x: 2, y: 2)
+            }
+        }
     }
 }
