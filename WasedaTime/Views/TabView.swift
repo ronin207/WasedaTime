@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TabView: View {
+    @State private var isOn: Bool = false
+    
     // MARK: Tab
     @State var selectedTab: Tab = .home
     @State var color: Color = .accent
@@ -18,7 +20,7 @@ struct TabView: View {
             Group {
                 switch selectedTab {
                 case .home:
-                    Text("Home")
+                    HomeView(isOn: $isOn)
                 case .book:
                     Text("Syllabus")
                 case .calendar:
@@ -31,6 +33,7 @@ struct TabView: View {
             
             tab
         }
+        .preferredColorScheme(isOn ? .dark : .light)
     }
 }
 
