@@ -24,3 +24,9 @@ extension Color {
     
     static var constellation = Color("constellation")
 }
+
+extension LinearGradient {
+    init(_ colors: Color...) {
+        self.init(gradient: Gradient(colors: colors), startPoint: .topLeading, endPoint: .bottomTrailing)
+    }
+}
