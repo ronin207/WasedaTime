@@ -33,6 +33,7 @@
 		42F2DB8127D3379C0002B2EB /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		42F2DB8227D3379C0002B2EB /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
 		42F2DB8327D3379C0002B2EB /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		42F2DB8A27D3380D0002B2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		42F2DB6B27D3354D0002B2EB /* WasedaTime */ = {
 			isa = PBXGroup;
 			children = (
+				42F2DB8A27D3380D0002B2EB /* Info.plist */,
 				42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */,
 				42F2DB6E27D3354D0002B2EB /* ContentView.swift */,
 				42F2DB7D27D337440002B2EB /* Resources */,
@@ -316,6 +318,7 @@
 				DEVELOPMENT_TEAM = 4DVD7FVTR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WasedaTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,6 +348,7 @@
 				DEVELOPMENT_TEAM = 4DVD7FVTR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WasedaTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
