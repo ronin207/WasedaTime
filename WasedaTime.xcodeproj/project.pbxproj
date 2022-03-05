@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		429E18B027D35F6B001DD44A /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E18AF27D35F6B001DD44A /* TabItem.swift */; };
 		42F2DB6D27D3354D0002B2EB /* WasedaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */; };
 		42F2DB6F27D3354D0002B2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F2DB6E27D3354D0002B2EB /* ContentView.swift */; };
 		42F2DB7127D3354E0002B2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F2DB7027D3354E0002B2EB /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		429E18AF27D35F6B001DD44A /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		42F2DB6927D3354D0002B2EB /* WasedaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WasedaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F2DB6C27D3354D0002B2EB /* WasedaTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasedaTimeApp.swift; sourceTree = "<group>"; };
 		42F2DB6E27D3354D0002B2EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		429E18AC27D35C25001DD44A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				429E18AF27D35F6B001DD44A /* TabItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				42F2DB6F27D3354D0002B2EB /* ContentView.swift in Sources */,
 				42F2DB8D27D33F810002B2EB /* Colors.swift in Sources */,
 				42F2DB7C27D336740002B2EB /* Fonts.swift in Sources */,
+				429E18B027D35F6B001DD44A /* TabItem.swift in Sources */,
 				42F2DB6D27D3354D0002B2EB /* WasedaTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
