@@ -17,6 +17,7 @@ struct CustomNavigationLink<Content: View>: View {
             HStack {
                 Image(image)
                     .resizable()
+                    .renderingMode(.template)
                     .frame(width: 25, height: 25)
                     .padding(3)
                 
