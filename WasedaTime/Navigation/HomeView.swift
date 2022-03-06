@@ -43,7 +43,7 @@ struct HomeView: View {
                 }
             }
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
+                ToolbarItem(placement: .navigationBarTrailing) {
                     ColorSchemeToggle(isOn: $isOn)
                 }
             }
