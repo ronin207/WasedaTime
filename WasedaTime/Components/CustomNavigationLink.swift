@@ -7,14 +7,33 @@
 
 import SwiftUI
 
-struct CustomNavigationLink: View {
+struct CustomNavigationLink<Content: View>: View {
+    let content: Content
+    let image: String
+    let title: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationLink(destination: content) {
+            HStack {
+                Image(systemName: image)
+                    .resizable()
+                    .frame(width: 25, height: 25)
+                    .padding(3)
+                
+                Text(title)
+                    .font(selection: .latoRegular, size: 20)
+            }
+            .padding(10)
+            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 10))
+        }
     }
 }
 
 struct CustomNavigationLink_Previews: PreviewProvider {
     static var previews: some View {
-        CustomNavigationLink()
+        NavigationView {
+            CustomNavigationLink(content: Text("Hello"), image: "hand.wave", title: "Wave Hand")
+                .navigationBarHidden(true)
+        }
     }
 }
