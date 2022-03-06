@@ -15,7 +15,7 @@ struct CustomNavigationLink<Content: View>: View {
     var body: some View {
         NavigationLink(destination: content) {
             HStack {
-                Image(systemName: image)
+                Image(image)
                     .resizable()
                     .frame(width: 25, height: 25)
                     .padding(3)
@@ -32,7 +32,7 @@ struct CustomNavigationLink<Content: View>: View {
 struct CustomNavigationLink_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            CustomNavigationLink(content: Text("Hello"), image: "hand.wave", title: "Wave Hand")
+            CustomNavigationLink(content: Text("Hello"), image: "work_outline", title: "Wave Hand")
                 .navigationBarHidden(true)
         }
     }
