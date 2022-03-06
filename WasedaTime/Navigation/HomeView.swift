@@ -23,7 +23,7 @@ struct HomeView: View {
                 }
                 
                 ScrollView(.vertical, showsIndicators: false) {
-                    VStack(spacing: 10) {
+                    VStack(spacing: 20) {
                         Image("Logo")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
@@ -37,10 +37,17 @@ struct HomeView: View {
                                 .font(selection: .arial, size: 20)
                                 .multilineTextAlignment(.center)
                         }
-                        .padding()
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 24) {
+                                CustomNavigationLink(content: Text("Feeds"), image: "library_books", title: "Feeds")
+                                CustomNavigationLink(content: Text("Careers"), image: "work_outline", title: "Careers")
+                            }
+                        }
                     }
                     .foregroundColor(.text1)
                 }
+                .padding()
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
